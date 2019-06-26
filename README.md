@@ -1,2 +1,2 @@
-# epam-dsa-cat-eye
-Final project of epam-dsa
+### yuan-dev
+Yuan development environment
