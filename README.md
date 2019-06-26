@@ -1,2 +1,8 @@
-## yuan-dev
-Yuan's environment of development
+## eda
+Exploratory Data Analaysis
+
+### Sub-Tasks:
+- Visual Exploration
+- Relationships between features
+- Tabular exploration / numeric
+
