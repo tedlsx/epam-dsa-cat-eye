@@ -1,2 +1,7 @@
-# epam-dsa-cat-eye
-Final project of epam-dsa
+## eda
+Exploratory Data Analaysis
+
+### Sub-Tasks:
+- Visual Exploration
+- Relationships between features
+- Tabular exploration / numeric
