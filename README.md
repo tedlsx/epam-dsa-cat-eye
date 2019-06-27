@@ -12,3 +12,11 @@ Then try use the result of 10-fold cross-validation of each classification machi
 -- <cite>"Modelling In-Store Consumer Behaviour Using
 Machine Learning and Digital Signage Audience
 Measurement" by Robert Ravnik, Franc Solina, Vesna Zabkar</cite><https://core.ac.uk/download/pdf/151478114.pdf>
+
+#### Naive-Bayes Classification
+##### GaussianNB
+Prior distribution is Gaussian distribution and most features have continues data type
+##### MultinomialNB 
+Prior distribution is Multinomial distribution and most features have category data type
+##### BernoulliNB
+Prior distribution is Bernoulli distribution and most features have binomial categories data type or sparse discrete value
