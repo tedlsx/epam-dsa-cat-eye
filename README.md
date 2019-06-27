@@ -143,7 +143,7 @@ Exploratory Data Analaysis
 
 ### 2.2 Product percent and market share
 
-![2016_2019_product_percent](ima_coca/2016_2019_product_percent.PNG)
+![2016_2019_product_percent](img_coca/2016_2019_product_percent.PNG)
 
-![2016_2019_product_market_share](ima_coca/2016_2019_product_market_share.PNG)
+![2016_2019_product_market_share](img_coca/2016_2019_product_market_share.PNG)
 
