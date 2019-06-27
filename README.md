@@ -1,5 +1,22 @@
+## Content
 
-## eda
+1 EDA
+
+- Sub-Tasks
+- Feature: PACKAGE
+- Feature: BRAND
+
+2 COCA-COLA
+
+- Brand, type and package
+- Product percent and market share
+
+
+
+
+
+## 1 EDA
+
 Exploratory Data Analaysis
 
 **Key Interesting Features** :
@@ -66,4 +83,66 @@ Exploratory Data Analaysis
 | 33   | TETRA PACK (W/ TWIST TOP)    | only in `LIQUID / RTD JUICE`                                 | ![33tetra_pack_w_twis_top.jfif](img_package_type\33tetra_pack_w_twis_top.jfif) |
 | 34   | UTILITY JAR                  | only 9 in `INSTANCT COFFEE`                                  | ![34utility_jar.jfif](img_package_type\34utility_jar.jfif)   |
 
- 
+
+
+### Feature: BRAND
+
+> Top 20 brands with highest purchase records
+
+|      | Brand Name      | Type                           | Manufacturer                           | Description |
+| ---- | --------------- | ------------------------------ | -------------------------------------- | ----------- |
+| 1    | NESCAFE         | INSTANT COFFEE                 | NESTLE                                 |             |
+| 2    | GREATE          | INSTANT COFFEE                 | URC                                    |             |
+| 3    | OTHER REFILLING | DRINKING WATER/MINURAL WATER   | OTHER                                  |             |
+| 4    | COKE            | SOFTDRINKS                     | COCA-COLA                              |             |
+| 5    | KOPIKO BLANCA   | INSTANT COFFEE                 | PT TORABIKA EKA SEMESTA                |             |
+| 6    | KOPIKO          | INSTANT COFFEE                 | PT TORABIKA EKA SEMESTA                |             |
+| 7    | PEPSI           | SOFTDRINKS                     | PEPSI COLA                             |             |
+| 8    | RC COLA         | SOFTDRINKS                     | ASIAWIDE REFRESHMENTS CORPORATION      |             |
+| 9    | ROYAL           | SOFTDRINKS                     | COCA-COLA                              |             |
+| 10   | SPRITE          | SOFTDRINKS                     | COCA-COLA                              |             |
+| 11   | DEL MONTE       | LIQUID / RTD JUICE             | DEL MONTE PHILS                        |             |
+| 12   | NESTLE CHUCKIE  | UHT MILK                       | NESTLE                                 |             |
+| 13   | MOUNTAIN DEW    | SOFTDRINKS                     | PEPSI COLA                             |             |
+| 14   | ZESTO BIG 250   | LIQUID / RTD JUICE             | ZEST-O CORP.                           |             |
+| 15   | WILKINGS        | DRINKING WATER/MINERAL WATER   | COCA-COLA                              |             |
+| 16   | ZESTO           | LIQUID / RTD JUICE             | ZEST-O CORP.                           |             |
+| 17   | WATER MARKET    | DRINKING WATER/MINERAL WATER   | OTHER                                  |             |
+| 18   | GATORADE        | LIQUID / RTD SPORTS / ENERGY D | PEPSO-COLA PRODUCTS PHILIPPINES INC.   |             |
+| 19   | NATURE' SPRING  | DR                             | PHILIPPINE SPRING WATER RESOURCES INC. |             |
+| 20   | NATURE' SPRINT  | DRINKING WATER/MINERAL WATER   | PHILIPPINE SPRING WATER RESOURCES INC. |             |
+|      |                 |                                |                                        |             |
+
+
+
+## 2 COCA-COLA
+
+> Philippine
+>
+> dataset : the original PHILIPPINES_BEVERAGE_PURCHASE_HHP_CLEANED.csv
+
+### Brand, type and package
+
+> Based on current dataset, COCA-COLA running **13 brands** in Philippine, focusing on `SOFTDRINKS`, `DRINKING WATER/MINUERAL WATER`, `LIQUID / RTD JUICE` 3 products market,  and mainly applied 4 kinds of packages (`GLASS BOTTLE`, `PLASTIC BOTTLE` and `BOTTLED WATER`, `CAN`) for its popular products. 
+
+|      | Brand             | Type                         | Package                                                    |
+| ---- | ----------------- | ---------------------------- | ---------------------------------------------------------- |
+| 1    | COKE              | SOFTDRINKS                   | most: `GLASS BOTTLE`<br>2nd: `PLASTIC BOTTLE`<br>3rd:`CAN` |
+| 2    | ROYAL             | SOFTDRINKS                   | 1st: `GLASS BOTTLE`<br>2nd: `PLASTIC BOTTLE`<br>3rd: `CAN` |
+| 3    | SPRITE            | SOFTDRINKS                   | 1st: `GLASS BOTTLE`<br>2nd: `PLASTIC BOTTLE`<br>3rd: `CAN` |
+| 4    | WILKINS           | DRINKG WATER/MINERAL WATER   | 1st: `BOTTLED WATER`<br>2nd: `DISPENSER`                   |
+| 5    | MINUTE MAID       | LIQUID / RTD JUICE           | 1st: `TETRA PACK`<br>2nd: `PLASTIC BOTTLE`<br>             |
+| 6    | SPARKLE           | SOFTDRINKS                   | 1st: `GLASS BOTTLE`<br>2nd: `PLASTIC BOTTLE`               |
+| 7    | POP               | SOFTDRINKS                   | 1st: `GLASS BOTTLE`<br>few: `PLASTIC BOTTLE`               |
+| 8    | WILKINS PURE      | DRINKING WATER/MINERAL WATER | only `BOTTLED WATER`                                       |
+| 9    | SARSI             | SOFTDRINKS                   | 1st: `PLASTIC BOTTLE`<br>2nd: `CAN`                        |
+| 10   | VIVA              | DRINKING WATER/MINERAL WATER | 1st: `BOTTLED WATER`<br>few: `DISPENSER`                   |
+| 11   | WILKINS DELIGHT   | DRINKING WATER/MINERAL WATER | only `BOTTLED WATER`                                       |
+| 12   | NUTRI JUICE       | LIQUID / RTD JUICE           | only 5 `FOIL PACK`                                         |
+| 13   | 8 O'CLOCK FUNCHUM | LIQUID / RTD JUICE           | only 1 `DOY PACK`                                          |
+
+### 2  Product percent and market share
+
+![2016_2019_product_percent](ima_coca/2016_2019_product_percent.PNG)
+
+![2016_2019_product_market_share](ima_coca/2016_2019_product_market_share.PNG)
